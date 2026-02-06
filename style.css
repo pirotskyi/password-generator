@@ -44,7 +44,6 @@ h1 {
   font-size: 1.8rem;
   font-weight: 700;
   position: relative;
-  padding-bottom: 0.5rem;
 
   background: linear-gradient(
     to right,
@@ -55,22 +54,6 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-/* h1::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50%;
-  height: 3px;
-  background: linear-gradient(
-    90deg,
-    var(--primary-color),
-    var(--secondary-color)
-  );
-  border-radius: 2px;
-} */
 
 .password-container {
   margin-bottom: 2rem;
