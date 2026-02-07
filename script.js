@@ -56,7 +56,7 @@ function updateStrengthMeter(password) {
   const hasUpperCase = /[A-Z]/.test(password);
   const hasLowerCase = /[a-z]/.test(password);
   const hasNumbers = /[0-9]/.test(password);
-  const hasSymbols = /!@#$%^&*()-_=+[]{}|;:,.<>?/.test(password);
+  const hasSymbols = /[!@#$%^&*()-_=+[\]{}|;:,.<>?]/.test(password);
 
   let strengthScore = 0;
 
