@@ -83,7 +83,7 @@ function updateStrengthMeter(password) {
   if (strengthScore < 40) {
     barColor = '#fc8181';
     strengthLabelText = 'Weak';
-  } else if (strengthBar < 70) {
+  } else if (strengthScore < 70) {
     barColor = '#fbd38d';
     strengthLabelText = 'Medium';
   } else {
